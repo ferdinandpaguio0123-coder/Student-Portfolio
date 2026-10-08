@@ -1,7 +1,29 @@
-function welcomeMessage() {
-    alert("Welcome to my portfolio!");
+// DARK MODE
+
+function toggleDarkMode() {
+
+    document.body.classList.toggle("dark");
+
 }
 
-function changeColor() {
-    document.body.style.backgroundColor = "#dbeafe";
+
+// PROJECT BUTTON
+
+function showProject() {
+
+    alert(
+        "This project is part of my academic portfolio."
+    );
+
+}
+
+
+// CONTACT BUTTON
+
+function contactMe() {
+
+    alert(
+        "Thank you for visiting my portfolio!"
+    );
+
 }
