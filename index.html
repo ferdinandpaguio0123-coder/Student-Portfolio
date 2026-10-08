@@ -12,9 +12,199 @@
 
 <body>
 
-    <h1>My Portfolio</h1>
+    <!-- NAVIGATION -->
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
 
-    <p>Hello! I am an Information Technology student.</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button onclick="toggleDarkMode()">🌙</button>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div>
+
+            <p>Hello, I'm</p>
+
+            <h1>Your Name</h1>
+
+            <h2>Information Technology Student</h2>
+
+            <p>
+                I am an IT student interested in web development,
+                programming, and technology.
+            </p>
+
+            <a href="#projects" class="btn">
+                View My Projects
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am an Information Technology student who enjoys
+            learning about programming, web development, networking,
+            and software development.
+        </p>
+
+        <p>
+            I am continuously improving my technical skills by
+            creating projects and learning new technologies.
+        </p>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <h2>My Skills</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Creating website structure and content.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Designing and styling websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Adding interaction and functionality.</p>
+            </div>
+
+            <div class="card">
+                <h3>GitHub</h3>
+                <p>Managing and sharing coding projects.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>
+                    Online Classroom Reservation System
+                </h3>
+
+                <p>
+                    A proposed system that allows students and
+                    faculty to reserve classrooms and manage
+                    schedules.
+                </p>
+
+                <button onclick="showProject()">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>
+                    Personal Portfolio
+                </h3>
+
+                <p>
+                    A personal website created using HTML,
+                    CSS, and JavaScript.
+                </p>
+
+                <button onclick="showProject()">
+                    View Project
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>
+                    Network Configuration
+                </h3>
+
+                <p>
+                    A networking project involving IP addressing,
+                    VLAN configuration, and connectivity testing.
+                </p>
+
+                <button onclick="showProject()">
+                    View Project
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>
+            Email: your@email.com
+        </p>
+
+        <p>
+            GitHub: github.com/yourusername
+        </p>
+
+        <button class="btn" onclick="contactMe()">
+            Say Hello
+        </button>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            © 2026 Your Name
+        </p>
+
+        <p>
+            Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
 
     <script src="script.js"></script>
 
