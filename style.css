@@ -84,6 +84,8 @@ nav button {
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 
     padding: 80px 10%;
 
@@ -120,6 +122,14 @@ nav button {
     font-size: 18px;
     color: #64748b;
     margin-bottom: 25px;
+}
+
+.profile {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -350,6 +360,13 @@ body.dark .card p {
 
     .hero {
         padding: 70px 25px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .profile {
+        width: 180px;
+        height: 180px;
     }
 
     .hero h1 {
