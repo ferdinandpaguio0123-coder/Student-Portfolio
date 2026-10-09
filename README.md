@@ -43,15 +43,11 @@ An academic networking project involving IP addressing, VLAN configuration, and 
 
 📁 Repository Structure
 
-student-portfolio/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-🌐 Visit My Website
-
-Click here to view my portfolio
+student-portfolio
+index.html
+style.css
+script.js
+README.md
 
 🎯 My Goals
 
